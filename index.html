@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Agrinho 2026 | Economia Sustentável</title>
+  <style>
+    :root {
+      --verde: #2e8b57;
+      --verde-claro: #4caf50;
+      --amarelo: #f1c40f;
+      --terra: #8d5524;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(to bottom, #e8f5e9, #c8e6c9);
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background: linear-gradient(135deg, var(--verde), var(--verde-claro));
+      color: white;
+      text-align: center;
+      padding: 2rem 1rem;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    }
+
+    .logo {
+      font-size: 3.5rem;
+      margin-bottom: 0.5rem;
+    }
+
+    h1 {
+      font-size: 2.8rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .subtitle {
+      font-size: 1.4rem;
+      opacity: 0.95;
+    }
+
+    .hero {
+      background: url('https://images.unsplash.com/photo-1625246333197-9e5d8c8b5c5b?w=1200') center/cover no-repeat;
+      height: 400px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      color: white;
+      text-shadow: 0 3px 10px rgba(0,0,0,0.6);
+    }
+
+    .hero::after {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: rgba(0,0,0,0.4);
+    }
+
+    .hero-content {
+      position: relative;
+      text-align: center;
+      z-index: 2;
+    }
+
+    .hero h2 {
+      font-size: 3rem;
+      margin-bottom: 1rem;
+    }
+
+    main {
+      max-width: 1100px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+
+    section {
+      background: white;
+      margin-bottom: 2rem;
+      border-radius: 15px;
+      padding: 2rem;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    }
+
+    h2 {
+      color: var(--verde);
+      border-bottom: 4px solid var(--amarelo);
+      padding-bottom: 10px;
+      margin-bottom: 1.5rem;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 1.5rem;
+    }
+
+    .card {
+      background: #f8fff9;
+      border-radius: 12px;
+      padding: 1.5rem;
+      border: 2px solid var(--verde-claro);
+      transition: transform 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-10px);
+    }
+
+    .card h3 {
+      color: var(--terra);
+      margin-bottom: 1rem;
+    }
+
+    footer {
+      background: var(--verde);
+      color: white;
+      text-align: center;
+      padding: 2rem;
+      margin-top: 3rem;
+    }
+
+    .emoji {
+      font-size: 2.5rem;
+      display: block;
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="logo">🌱</div>
+    <h1>ECONOMIA SUSTENTÁVEL</h1>
+    <p class="subtitle">Concurso Agrinho 2026</p>
+  </header>
+
+  <div class="hero">
+    <div class="hero-content">
+      <h2>Preservando o hoje para um amanhã melhor</h2>
+      <p><strong>🌍 Juntos pela agricultura do futuro!</strong></p>
+    </div>
+  </div>
+
+  <main>
+
+    <section>
+      <h2>🌿 O que é Economia Sustentável?</h2>
+      <p style="font-size: 1.2rem;">
+        É um modelo econômico que busca atender às necessidades do presente sem comprometer a capacidade das futuras gerações de atenderem às suas próprias necessidades. 
+        Combina <strong>lucro</strong>, <strong>preservação ambiental</strong> e <strong>responsabilidade social</strong>.
+      </p>
+    </section>
+
+    <section>
+      <h2>♻️ Os 3 Pilares da Sustentabilidade</h2>
+      <div class="cards">
+        <div class="card">
+          <span class="emoji">🌍</span>
+          <h3>Ambiental</h3>
+          <p>Preservação dos recursos naturais, solo, água e biodiversidade.</p>
+        </div>
+        <div class="card">
+          <span class="emoji">👥</span>
+          <h3>Social</h3>
+          <p>Justiça social, inclusão, saúde e educação no campo.</p>
+        </div>
+        <div class="card">
+          <span class="emoji">💰</span>
+          <h3>Econômico</h3>
+          <p>Geração de renda, eficiência e viabilidade financeira.</p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>🌱 Práticas na Agricultura</h2>
+      <ul style="font-size: 1.15rem; line-height: 2.2rem;">
+        <li>✅ Agricultura familiar com rotação de culturas</li>
+        <li>✅ Uso de energia solar em propriedades rurais</li>
+        <li>✅ Reaproveitamento de água (cisternas e irrigação eficiente)</li>
+        <li>✅ Compostagem e biofertilizantes</li>
+        <li>✅ Agrofloresta e plantio direto</li>
+        <li>✅ Economia circular: vender produtos orgânicos e artesanais</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>🌟 Benefícios da Economia Sustentável</h2>
+      <div class="cards">
+        <div class="card">
+          <h3>Para o Planeta</h3>
+          <p>Menos poluição, solo mais fértil e preservação das matas.</p>
+        </div>
+        <div class="card">
+          <h3>Para a Família Rural</h3>
+          <p>Mais renda, saúde melhor e futuro garantido para os filhos.</p>
+        </div>
+        <div class="card">
+          <h3>Para o Brasil</h3>
+          <p>Alimentos mais saudáveis e desenvolvimento econômico responsável.</p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <p><strong>Feito com ❤️ por [felipe alves schafhauser] - Concurso Agrinho 2026</strong></p>
+    <p>Economia Sustentável: Cuidando da Terra, Gerando Riqueza e Construindo o Futuro</p>
+  </footer>
+
+</body>
+</html>
